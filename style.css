@@ -1,0 +1,79 @@
+/* CSS untuk layout website */
+
+
+body {
+	font-famiy: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+
+header {
+	background-color: #387478;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+
+.container {
+	display: flex;
+	flex-grow: 1;
+}
+
+
+.sidebar {
+	width: 25%;
+	background-color: #629584;
+	padding: 20px;
+	box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.content {
+	flex-grow: 1;
+	padding: 20px;
+}
+
+
+.content img {
+	height: 200px;
+}
+
+
+footer {
+	background-color: #243642;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	bottom: 0;
+}
+
+
+h2 {
+	color: #333;
+}
+
+
+p{
+	line-height: 1.6;
+}
+
+
+botton {
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+	background-color: #45a049;
+}
